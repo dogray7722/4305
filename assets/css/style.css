@@ -12,3 +12,11 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.testimonials {
+  background-image: url(../images/world_map_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  
+}
