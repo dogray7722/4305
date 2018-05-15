@@ -18,5 +18,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto;
-  
+}
+
+.push {
+  margin-top: 10%;
 }
