@@ -35,3 +35,14 @@ h1 {
 body {
   font-family: 'Raleway', sans-serif;
 }
+
+.osaka {
+  background-image: url(../images/osaka2.jpg);
+  background-size: cover; 
+}
+
+.transparent {
+  background: rgba(0, 0, 0, .6 green, blue, alpha);
+}
+
+.center-btn { text-align: center }
