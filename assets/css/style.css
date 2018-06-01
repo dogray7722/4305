@@ -46,3 +46,9 @@ body {
 }
 
 .center-btn { text-align: center }
+
+.support {
+  background-image: url(../images/collaboration.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
