@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
-import Featured from './Featured';
+import Header from './Header';
+import FeaturedPhoto from './FeatuedPhoto';
+import Products from './Products';
+import Testimonials from './Testimonials';
 
 class App extends Component {
     render() {
         return (
             <div>
                 <Navigation />
-                <Featured />
+                <Header />
+                <FeaturedPhoto />
+                <Products />
+                <Testimonials />
             </div>
         )
     }
