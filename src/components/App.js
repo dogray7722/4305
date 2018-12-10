@@ -5,6 +5,9 @@ import FeaturedPhoto from './FeatuedPhoto';
 import Products from './Products';
 import Testimonials from './Testimonials';
 
+//Import css
+import './App.css';
+
 class App extends Component {
     render() {
         return (

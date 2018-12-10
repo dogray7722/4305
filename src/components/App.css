@@ -1,0 +1,73 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.testimonials {
+  background-image: url(../images/world_map_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+}
+
+.push {
+  margin-top: 10%;
+}
+
+.follow li{
+  margin-right: 10px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.osaka {
+  background-image: url(../images/osaka2.jpg);
+  background-size: cover; 
+}
+
+.transparent {
+  background: rgba(0, 0, 0, .6 green, blue, alpha);
+}
+
+.center-btn { text-align: center }
+
+.support {
+  background-image: url(../images/collaboration.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.override input:not([type]), input[type=text]:not(.browser-default)
+{
+  background-color: white;
+  border-radius:15px;
+  border-bottom: none;
+  border:1px solid #acb1b7;
+  background-color:#fcfcfc;
+  color:#505358;
+  padding:5px 14px 5px 28px;
+  margin:3px; 
+}
+
+.icon {
+  vertical-align: middle;
+  color: grey;
+}
