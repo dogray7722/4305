@@ -4,6 +4,7 @@ import Header from './Header';
 import FeaturedPhoto from './FeatuedPhoto';
 import Products from './Products';
 import Testimonials from './Testimonials';
+import Footers from './Footers';
 
 //Import css
 import './App.css';
@@ -17,6 +18,7 @@ class App extends Component {
                 <FeaturedPhoto />
                 <Products />
                 <Testimonials />
+                <Footers />
             </div>
         )
     }
