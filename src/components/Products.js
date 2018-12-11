@@ -1,6 +1,4 @@
 import React from 'react';
-import { } from 'react-materialize';
-import prague from '../images/3621_prague.jpg'
 
 const Products = (props) => {
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Parallax } from 'react-materialize';
 import businessman1 from '../images/businessman1.png'
 import student1 from '../images/student1.png'
 import traveller1 from '../images/traveller1.png'
