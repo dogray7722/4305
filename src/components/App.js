@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navigation from './Navigation';
-import Header from './Header';
-import FeaturedPhoto from './FeatuedPhoto';
-import Products from './Products';
-import Testimonials from './Testimonials';
+import Home from './Home';
+import Support from './Support';
+import Prods from './Prods';
+import Blog from './Blog';
+import Login from './Login';
 import Footers from './Footers';
 
 //Import css
@@ -16,10 +17,13 @@ class App extends Component {
             <Router>
                 <div>
                     <Navigation />
-                    <Header />
-                    <FeaturedPhoto />
-                    <Products />
-                    <Testimonials />
+                    <Switch>
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/support" component={Support}/>
+                        <Route path="/blog" component={Blog}/>
+                        <Route path="/products" component={Prods}/>
+                        <Route path="/login" component={Login}/>
+                    </Switch>
                     <Footers />
                 </div>
             </Router>

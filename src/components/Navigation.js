@@ -3,6 +3,7 @@ import logo from '../images/logo.png';
 import english from '../images/uk.png';
 import spanish from '../images/spain.png';
 import {Navbar, NavItem} from 'react-materialize';
+import { Link } from 'react-router-dom';
 
 const Navigation = (props) => {
 
@@ -18,19 +19,19 @@ const Navigation = (props) => {
         marginBottom: '-30%'
     }
 
-    var Img = <img src={logo} style={imgStyle} alt=""></img>
-    var EnglishFlag = <img src={english} style={flagStyle} alt=""></img>
-    var SpanishFlag = <img src={spanish} style={flagStyle} alt=""></img>
+    var Img = <img src={logo} style={imgStyle} alt="blabberly log"></img>
+    var EnglishFlag = <img src={english} style={flagStyle} alt="Spanish Flag"></img>
+    var SpanishFlag = <img src={spanish} style={flagStyle} alt="Union Jack"></img>
 
     return (
             
         <Navbar className = "grey lighten-1" brand={Img} right>
-            <NavItem href='support.html' onClick={() => console.log('test click')}>Support</NavItem>
-            <NavItem href='blog.html'>Blog</NavItem>
-            <NavItem href='products.html'>Products</NavItem>
-            <NavItem href='login.html'>Login</NavItem>
-            <NavItem href='index.html'>{EnglishFlag}</NavItem>
-            <NavItem href='índice.html'>{SpanishFlag}</NavItem>
+            <NavItem><Link to="/support">Support</Link></NavItem>
+            <NavItem><Link to="/blog">Blog</Link></NavItem>
+            <NavItem><Link to="/products">Products</Link></NavItem>
+            <NavItem><Link to="/login">Login</Link></NavItem>
+            <NavItem><Link to="/">{EnglishFlag}</Link></NavItem>
+            <NavItem><Link to="/índice">{SpanishFlag}</Link></NavItem>
         </Navbar>
     );
 }
