@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navigation from './Navigation';
 import Header from './Header';
 import FeaturedPhoto from './FeatuedPhoto';
@@ -12,14 +13,16 @@ import './App.css';
 class App extends Component {
     render() {
         return (
-            <div>
-                <Navigation />
-                <Header />
-                <FeaturedPhoto />
-                <Products />
-                <Testimonials />
-                <Footers />
-            </div>
+            <Router>
+                <div>
+                    <Navigation />
+                    <Header />
+                    <FeaturedPhoto />
+                    <Products />
+                    <Testimonials />
+                    <Footers />
+                </div>
+            </Router>
         )
     }
 }

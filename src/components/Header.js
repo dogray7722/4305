@@ -1,6 +1,5 @@
 import React from 'react';
-import { Row, Col, Container, Button } from 'react-materialize';
-import Input from 'react-materialize/lib/Input';
+import { Row, Col, Container, Button, Input } from 'react-materialize';
 
 const Header = (props) => {
 
