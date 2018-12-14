@@ -23,7 +23,7 @@ const Testimonials = (props) => {
                 </div>
 
                 <div className="col s2 offset-s1 push">
-            <div class="card-panel light-blue darken-4">
+            <div className="card-panel light-blue darken-4">
               <div className="col s8 card-image">
                 <img src={student1} className="responsive-img circle" alt=""></img>
               </div>

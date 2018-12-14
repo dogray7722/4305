@@ -26,12 +26,12 @@ const Navigation = (props) => {
     return (
             
         <Navbar className = "grey lighten-1" brand={Img} right>
-            <NavItem><Link to="/support">Support</Link></NavItem>
-            <NavItem><Link to="/blog">Blog</Link></NavItem>
-            <NavItem><Link to="/products">Products</Link></NavItem>
-            <NavItem><Link to="/login">Login</Link></NavItem>
-            <NavItem><Link to="/">{EnglishFlag}</Link></NavItem>
-            <NavItem><Link to="/índice">{SpanishFlag}</Link></NavItem>
+            <li><Link to="/support">Support</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
+            <li><Link to="/products">Products</Link></li>
+            <li><Link to="/login">Login</Link></li>
+            <li><Link to="/">{EnglishFlag}</Link></li>
+            <li><Link to="/índice">{SpanishFlag}</Link></li>
         </Navbar>
     );
 }
