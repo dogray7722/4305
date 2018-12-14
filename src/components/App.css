@@ -20,6 +20,11 @@
   background-size: auto;
 }
 
+.login {
+  font-weight: bolder;
+}
+
+
 .push {
   margin-top: 10%;
 }
