@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+
 const Footers = (props) => {
 
     return (
@@ -15,10 +18,10 @@ const Footers = (props) => {
         <div className="col l3 s12">
           <h5 className="white-text">Links</h5>
           <ul>
-            <li><a className="white-text" href="#!">Support</a></li>
-            <li><a className="white-text" href="#!">Investor Relations</a></li>
-            <li><a className="white-text" href="#!">Contact</a></li>
-            <li><a className="white-text" href="#!">Blog</a></li>
+            <li><Link to="/support">Support</Link></li>
+            <li><Link to="/for_investors">Investor Relations</Link></li>
+            <li><Link to="/contact_us">Contact Us</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
           </ul>
         </div>
         <div className="col l3 s12">

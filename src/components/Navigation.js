@@ -5,15 +5,13 @@ import spanish from '../images/spain.png';
 import {Navbar} from 'react-materialize';
 import { Link } from 'react-router-dom';
 
-//Import css
-import './App.css';
-
 const Navigation = (props) => {
 
     const imgStyle = {
         width: '120px',
         height: '120px',
-        marginTop: '-20%'
+        marginTop: '-15%',
+        marginLeft: '30px'
     }
 
     const flagStyle = {

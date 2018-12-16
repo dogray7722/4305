@@ -20,11 +20,6 @@
   background-size: auto;
 }
 
-.login {
-  font-weight: bolder;
-}
-
-
 .push {
   margin-top: 10%;
 }
@@ -58,7 +53,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 
 .override input:not([type]), input[type=text]:not(.browser-default)
 {
