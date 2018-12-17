@@ -8,15 +8,15 @@ import { Link } from 'react-router-dom';
 const Navigation = (props) => {
 
     const imgStyle = {
-        width: '120px',
-        height: '120px',
+        width: '120',
+        height: '120',
         marginTop: '-15%',
         marginLeft: '30px'
     }
 
     const flagStyle = {
-        width: '30px',
-        height: '30px',
+        width: '30',
+        height: '30',
         marginBottom: '-30%'
     }
 
