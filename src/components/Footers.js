@@ -42,7 +42,7 @@ const Footers = (props) => {
     </div>
     <div className="footer-copyright">
       <div className="container">
-      Powered by <a className="yellow-text text-lighten-3" href="#">DG Enterprise Applications</a>
+      Powered by <a className="yellow-text text-lighten-3" href="https://www.google.com">DG Enterprise Applications</a>
       </div>
     </div>
   </footer>
